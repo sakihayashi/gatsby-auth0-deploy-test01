@@ -6,7 +6,7 @@ import Recaptcha from 'react-google-recaptcha'
 
 import './Form.css'
 
-const RECAPTCHA_KEY = '6LdDK64UAAAAADtq1Mt1f-cuX3pdaeysEbFYt-7_';
+const RECAPTCHA_KEY = '6LdwXLAUAAAAACEKolwBLmjPBSWJckkfUjoiMLaY';
 
 function encode(data) {
   return Object.keys(data)
@@ -16,7 +16,7 @@ function encode(data) {
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'newHamster',
+    name: 'contactGeneral',
     subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'メッセージが送信されました。お問い合わせいただきありがとうございます。',
