@@ -83,14 +83,14 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-        <script src="https://www.google.com/recaptcha/api.js?render=6LfhA64UAAAAAL8SMCsSPDD1Pw6lI_8avu2IBs9y"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=6LdwXLAUAAAAACEKolwBLmjPBSWJckkfUjoiMLaY"></script>
 
         </Helmet>
         <form
           className="Form"
           name={name}
           method="post"
-          onSubmit={this.handleSubmit}
+          // onSubmit={this.handleSubmit}
           netlify-honeypot="bot-field"
           data-netlify="true"
           data-netlify-recaptcha="true"

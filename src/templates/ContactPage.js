@@ -14,11 +14,7 @@ export const ContactPageTemplate = ({
   body,
   title,
   subtitle,
-  featuredImage,
-  address,
-  phone,
-  email,
-  locations
+  featuredImage
 }) => (
   <main className="Contact">
     <PageHeader
@@ -30,7 +26,7 @@ export const ContactPageTemplate = ({
 
         <center>
           <strong>お問い合わせ</strong>
-          <FormSimpleAjax name="newHamster" />
+          <FormSimpleAjax name="contactGeneral" />
         </center>
       {/* </div> */}
     </section>
